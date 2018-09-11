@@ -1,16 +1,7 @@
-
-
 /* GENERAL */
-
-body {
-    margin-top: 50px;
-    /* font-family: 'Dosis', sans-serif; */
-    font-size: 16px;
-    /* background: url('../img/tile.jpg') top left repeat; */
-}
+body {}
 
 /* GLOBAL */
-
 h1,
 h2,
 h3,
@@ -22,4 +13,53 @@ h6 {
     font-weight: bold;
 }
 
+/* FIRST SECTION */
+#first {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: space-between; */
+}
 
+.first__logo {
+    max-width: 85px;
+}
+
+.first__heading {
+    font-size: 2rem;
+    width: 80%;
+}
+
+.first__arrow-down {
+    /* display: flex;
+    justify-content: center; */
+    font-size: 4rem;
+    animation: upAndDown 5s infinite;
+}
+
+.first__arrow-down a {
+    color: #fc3650;
+}
+
+.first__arrow-down:hover {
+    cursor: pointer;
+}
+
+@keyframes upAndDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* end FIRST SECTION */
