@@ -13,6 +13,15 @@ h6 {
     font-weight: bold;
 }
 
+.section__hr {
+    height: 10px;
+    background: #fc3650;
+    border: 0;
+    border-radius: 2px;
+    width: 25%;
+}
+
+
 /* FIRST SECTION */
 #first {
     background: #f2f2f2;
@@ -63,3 +72,38 @@ h6 {
 
 
 /* end FIRST SECTION */
+/* SECOND SECTION */
+
+#second {
+    height: 100vh;
+    width: 100%;
+}
+
+.info-box {
+    padding: 1.5rem 0;
+}
+
+.info-box__heading {
+    background: #fc3650;
+    border-radius: 2px;
+}
+
+.info-box__info {
+    background: #f2f2f2;
+    padding: 0.25rem;
+}
+
+.info-box__info p {
+    padding: 0.25rem;
+    margin: 0;
+}
+
+.info-boxes__end {
+    padding-top: 1.5rem;
+}
+
+.info-boxes__end h2 {
+    font-style: italic;
+}
+
+/* end SECOND SECTION */
