@@ -15,10 +15,11 @@ h6 {
 
 .section__hr {
     height: 10px;
-    background: #fc3650;
+    background: #be112f;
     border: 0;
     border-radius: 2px;
     width: 25%;
+    margin: 0 auto;
 }
 
 
@@ -119,7 +120,7 @@ h6 {
 }
 
 .info-box__heading {
-    background: #fc3650;
+    background: #be112f;
     border-radius: 2px;
 }
 
@@ -128,18 +129,19 @@ h6 {
     padding: 0.25rem;
 }
 
+.info-box__info ul {
+    padding-left: 2rem;
+}
+
 .info-box__info p {
     padding: 0.25rem;
     margin: 0;
+    padding-left: 1.75rem;
 }
 
 .info-boxes__end {
-    padding-top: 1.5rem;
 }
 
-.info-boxes__end h2 {
-    font-style: italic;
-}
 
 /* end SECOND SECTION */
 /* THIRD SECTION */
