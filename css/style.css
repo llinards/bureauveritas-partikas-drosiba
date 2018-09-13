@@ -139,9 +139,6 @@ h6 {
     padding-left: 1.75rem;
 }
 
-.info-boxes__end {
-}
-
 
 /* end SECOND SECTION */
 /* THIRD SECTION */
@@ -151,10 +148,10 @@ h6 {
     background-color: #ccc;
 }
 
-.service__main h3,
+.service__main,
 .service__info-head,
 .readmore-btn {
-    background-color: #fc3650;
+    background-color: #be112f;
     color: #fff;
 }
 
@@ -163,18 +160,20 @@ h6 {
     padding: 1rem;
 }
 
-.readmore {
-    margin-top: 1rem;
-}
-
 .readmore__btn {
     text-align: center;
     padding: 0.5rem 0;
     margin-top: 0.5rem;
 }
 
+#readmore-one {
+    padding-top: 0.5rem;
+    transition: all 0.5s;
+}
+
 .readmore-btn {
-    border: none;
+    border: 1px solid black;
+    font-weight: 700;
 }
 
 .service__info-diagram {
