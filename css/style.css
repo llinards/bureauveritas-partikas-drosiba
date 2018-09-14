@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
+
 /* GENERAL */
 body {}
 
@@ -11,6 +13,15 @@ h6 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
+}
+
+p,
+li {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .section__hr {
@@ -22,10 +33,42 @@ h6 {
     margin: 0 auto;
 }
 
+.apply-btn {
+    background: #be112f;
+    color: #fff;
+    border: none;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.apply-btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.apply-btn:active,
+.apply-btn:focus,
+.apply-btn:hover {
+    background-color: rgba(139, 32, 50, 0.6);
+
+}
+
+
+
+
 
 /* FIRST SECTION */
 #first {
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
+    /* background-image: url("/img/section_one_1.jpg"); */
+    background: linear-gradient(rgba(182, 182, 182, 0.35),
+        rgba(182, 182, 182, 0.35)), url("/img/section_one_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     /* display: flex;
@@ -34,11 +77,21 @@ h6 {
 }
 
 .first__logo {
-    max-width: 85px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .first__heading {
-    font-size: 2rem;
+    font-size: 3.2rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    max-width: 1510px
+}
+
+.first__heading span {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .first__subheadings {
@@ -46,11 +99,18 @@ h6 {
 }
 
 .first__subheading {
-    background-color: #fff;
+    background-color: rgba(115, 115, 115, 0.8);
+    color: #fff;
     width: 70%;
-    max-width: 930px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 400;
+}
+
+.first__subheading span {
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .first__name-of-services {
@@ -58,8 +118,9 @@ h6 {
 }
 
 .name-of-service {
-    background-color: #be112f;
-    color: #fff;
+    /* background-color: #be112f; */
+    background-color: rgba(139, 32, 50, 0.3);
+    border: 3px solid rgb(139, 32, 50);
     padding: 0.5rem;
     margin: 0.5rem;
     display: flex;
@@ -67,12 +128,23 @@ h6 {
     justify-content: center;
 }
 
+.name-of-service:hover,
+.name-of-service:focus,
+.name-of-service:active {
+    background-color: rgba(139, 32, 50, 0.6);
+}
+
 .name-of-service p {
     margin: 0;
     text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+
 }
 
 .name-of-service a {
+    /* color: #fff; */
+    /* color: rgb(93,18,35); */
     color: #fff;
     text-decoration: none;
 }
@@ -85,7 +157,7 @@ h6 {
 }
 
 .first__arrow-down a {
-    color: #be112f;
+    color: rgb(139, 32, 50);
 }
 
 .first__arrow-down:hover {
@@ -113,6 +185,7 @@ h6 {
 #second {
     height: 100vh;
     width: 100%;
+    background-color: rgb(115, 115, 115);
 }
 
 .info-box {
@@ -122,6 +195,11 @@ h6 {
 .info-box__heading {
     background: #be112f;
     border-radius: 2px;
+    font-size: 1.5rem;
+}
+
+.info-box__heading p {
+    font-weight: 700;
 }
 
 .info-box__info {
@@ -131,12 +209,26 @@ h6 {
 
 .info-box__info ul {
     padding-left: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
 }
 
-.info-box__info p {
+/* .info-box__info p {
     padding: 0.25rem;
     margin: 0;
-    padding-left: 1.75rem;
+    padding-left: 1.5rem;
+} */
+
+.info__boxes h3 {
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
+}
+
+.info__boxes h3 span {
+    font-weight: 700;
+    color: #be112f;
 }
 
 
@@ -155,15 +247,28 @@ h6 {
     color: #fff;
 }
 
+.service__main h3 {
+    font-weight: 400;
+    padding-top: 0.5rem;
+
+}
+
+.service__main h3 span {
+    font-weight: 700;
+}
+
 .service__info-text {
     background-color: #fff;
     padding: 1rem;
 }
 
+.service__info-text span {
+    font-weight: 700;
+}
+
 .readmore__btn {
     text-align: center;
     padding: 0.5rem 0;
-    margin-top: 0.5rem;
 }
 
 #readmore-one {
@@ -172,15 +277,26 @@ h6 {
 }
 
 .readmore-btn {
-    border: 1px solid black;
+    border: 1px solid #ccc;
     font-weight: 700;
 }
 
+.readmore-btn:hover,
+.readmore-btn:active,
+.readmore-btn:focus {
+    background-color: rgba(139, 32, 50, 0.6);
+    border: 1px solid #ccc;
+    box-shadow: none;
+
+}
+
 .service__info-diagram {
-    border: 1px solid black;
-    width: 50%;
-    height: 100px;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.service__info-diagram-img {
+    width: 75%;
 }
 
 /* end THIRD SECTION */
