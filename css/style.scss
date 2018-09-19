@@ -341,3 +341,52 @@ section#second h3 {
 }
 
 /* end THIRD SECTION */
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 2rem;
+}
+
+.footer__heading {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2rem;
+
+    span {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.footer__text {
+    margin: 0;
+
+    span {
+        font-weight: 700;
+    }
+}
+
+.footer__logos {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        text-align: center;
+    }
+}
+
+.contact-us {
+    border-left: 1px solid #ccc;
+
+}
+
+.footer__contact-us_heading {
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+/* end FOOTER */
