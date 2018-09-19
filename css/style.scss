@@ -84,6 +84,10 @@ li {
     max-height: 100px;
 }
 
+.first__headings {
+    padding-top: 7%;
+}
+
 .first__heading {
     font-size: 2.8rem;
     color: #fff;
@@ -166,7 +170,7 @@ li {
     justify-content: center; */
     font-size: 4rem;
     animation: upAndDown 5s infinite;
-    margin-bottom: 1rem !important;
+    margin-bottom: 4rem !important;
 
     a {
         color: rgb(139, 32, 50);
@@ -199,6 +203,7 @@ li {
     height: 100vh;
     width: 100%;
     background-color: rgb(115, 115, 115);
+    padding: 2rem;
 }
 
 .info-box {
@@ -249,6 +254,7 @@ li {
     /* height: 100vh; */
     width: 100%;
     background-color: #ccc;
+    padding: 2rem;
 }
 
 .service__main,
@@ -286,7 +292,15 @@ li {
     padding: 0.5rem 0;
 }
 
-#readmore-one {
+#readmore-one,
+#readmore-two,
+#readmore-three,
+#readmore-four,
+#readmore-five,
+#readmore-six,
+#readmore-seven,
+#readmore-eight,
+#readmore-nine {
     padding-top: 0.5rem;
     transition: all 0.5s;
 }

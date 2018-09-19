@@ -61,6 +61,9 @@ li {
   max-width: 100px;
   max-height: 100px; }
 
+.first__headings {
+  padding-top: 7%; }
+
 .first__heading {
   font-size: 2.8rem;
   color: #fff;
@@ -123,7 +126,7 @@ li {
   justify-content: center; */
   font-size: 4rem;
   animation: upAndDown 5s infinite;
-  margin-bottom: 1rem !important; }
+  margin-bottom: 4rem !important; }
   .first__arrow-down a {
     color: #8b2032; }
   .first__arrow-down:hover {
@@ -141,7 +144,8 @@ li {
 #second {
   height: 100vh;
   width: 100%;
-  background-color: #737373; }
+  background-color: #737373;
+  padding: 2rem; }
 
 .info-box {
   padding: 1.5rem 0; }
@@ -175,7 +179,8 @@ li {
 #third {
   /* height: 100vh; */
   width: 100%;
-  background-color: #ccc; }
+  background-color: #ccc;
+  padding: 2rem; }
 
 .service__main,
 .service__info-head,
@@ -199,7 +204,15 @@ li {
   text-align: center;
   padding: 0.5rem 0; }
 
-#readmore-one {
+#readmore-one,
+#readmore-two,
+#readmore-three,
+#readmore-four,
+#readmore-five,
+#readmore-six,
+#readmore-seven,
+#readmore-eight,
+#readmore-nine {
   padding-top: 0.5rem;
   transition: all 0.5s; }
 

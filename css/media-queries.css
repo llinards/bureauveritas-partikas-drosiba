@@ -62,8 +62,10 @@
 }
 
 @media (max-width: 575px) {
-    section#first {
-        padding: 1rem;
+    section#first,
+    section#second,
+    section#third {
+        padding: 0.5rem;
     }
 
     .info-box__heading p {
@@ -76,6 +78,19 @@
 
     section#second h3 {
         font-size: 1.25rem;
+    }
+
+    .service__main h3 {
+        font-size: 1.1rem;
+    }
+
+    .service__info-head h4 {
+        font-size: 1rem;
+    }
+
+    .service__info-text p,
+    .service__info-text li {
+        font-size: 0.75rem;
     }
 }
 
@@ -109,6 +124,10 @@
 
 
 @media (max-width: 425px) {
+    .first__headings {
+        padding-top: 0;
+    }
+
     .first__heading {
         font-size: 1.25rem;
     }
@@ -125,5 +144,11 @@
 @media (max-width: 375px) {
     .info-box__heading p {
         font-size: 1rem;
+    }
+}
+
+@media (max-height: 363px) {
+    .first__arrow-down {
+        margin-bottom: 1rem !important;
     }
 }
