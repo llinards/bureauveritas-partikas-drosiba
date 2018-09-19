@@ -24,8 +24,6 @@
 }
 
 @media (max-width: 991px) {
-
-
     .info-box {
         padding: 1rem 0;
     }
@@ -34,7 +32,9 @@
         margin-bottom: 0.5rem;
     }
 
-    section#second h3 {
+    section#second h3,
+    section#third h3.third__heading,
+    section#fourth h3 {
         padding-top: 1rem;
     }
 }
@@ -70,7 +70,8 @@
 
     section#first,
     section#second,
-    section#third {
+    section#third,
+    section#fourth {
         padding: 1rem 0.5rem 0.5rem 0.5rem;
     }
 
@@ -82,7 +83,9 @@
         font-size: 0.75rem;
     }
 
-    section#second h3 {
+    section#second h3,
+    section#third h3.third__heading,
+    section#fourth h3 {
         font-size: 1.25rem;
         padding-bottom: 1.5rem;
     }
@@ -96,7 +99,8 @@
     }
 
     .service__info-text p,
-    .service__info-text li {
+    .service__info-text li,
+    section#fourth p {
         font-size: 0.75rem;
     }
 }
