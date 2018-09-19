@@ -36,7 +36,7 @@
     }
 
     section#second h3 {
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
     }
 }
 
@@ -53,6 +53,21 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    section#second h3 {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .shadow-box {
+        box-shadow: 7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .shadow-box-opposite {
+        box-shadow: -7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
+        margin-top: 1rem;
+    }
 }
 
 @media (max-height: 720px) {
@@ -66,7 +81,7 @@
     section#first,
     section#second,
     section#third {
-        padding: 0.5rem;
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
     }
 
     .info-box__heading p {
@@ -79,6 +94,7 @@
 
     section#second h3 {
         font-size: 1.25rem;
+        padding-bottom: 1.5rem;
     }
 
     .service__main h3 {
