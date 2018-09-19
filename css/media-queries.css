@@ -62,6 +62,7 @@
 }
 
 @media (max-width: 575px) {
+
     section#first,
     section#second,
     section#third {
@@ -137,7 +138,8 @@
     }
 
     .first__arrow-down {
-        font-size: 1.75rem;
+        font-size: 2rem;
+        margin-bottom: 6rem !important;
     }
 }
 
