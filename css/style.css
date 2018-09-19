@@ -46,7 +46,7 @@ li {
 #first {
   /* background: #f2f2f2; */
   /* background-image: url("/img/section_one_1.jpg"); */
-  background: linear-gradient(rgba(182, 182, 182, 0.35), rgba(182, 182, 182, 0.35)), url("/img/section_one_1.jpg");
+  background: linear-gradient(rgba(182, 182, 182, 0.25), rgba(182, 182, 182, 0.25)), url("/img/section_one_1.jpg"), url("/img/section_one_2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -191,6 +191,9 @@ section#second h3 {
   width: 100%;
   background-color: #ccc;
   padding: 2rem; }
+
+.third__heading {
+  text-transform: uppercase; }
 
 .service__main,
 .service__info-head,
