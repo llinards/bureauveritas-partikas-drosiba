@@ -93,7 +93,7 @@ li {
     color: #fff;
     font-weight: 400;
     letter-spacing: 1px;
-    max-width: 1510px;
+    max-width: 1440px;
     margin: 0 auto;
 
     span {
@@ -107,11 +107,16 @@ li {
     padding-top: 1rem;
 }
 
+.first__subheadings .row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .first__subheading {
     background-color: rgba(115, 115, 115, 0.8);
     color: #fff;
     width: 70%;
-    max-width: 750px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
@@ -124,7 +129,7 @@ li {
 
 
 .first__name-of-services {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 
 .first__name-of-services .row {
@@ -206,6 +211,10 @@ li {
     padding: 2rem;
 }
 
+.info__boxes {
+    padding: 1rem;
+}
+
 .info__boxes .row {
     margin-left: 0;
     margin-right: 0;
@@ -243,7 +252,6 @@ section#second h3 {
     font-weight: 400;
     color: #fff;
     margin-bottom: 0;
-    padding-bottom: 1rem;
 
     span {
         font-weight: 700;

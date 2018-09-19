@@ -69,7 +69,7 @@ li {
   color: #fff;
   font-weight: 400;
   letter-spacing: 1px;
-  max-width: 1510px;
+  max-width: 1440px;
   margin: 0 auto; }
   .first__heading span {
     font-weight: 700;
@@ -78,11 +78,15 @@ li {
 .first__subheadings {
   padding-top: 1rem; }
 
+.first__subheadings .row {
+  padding-left: 0;
+  padding-right: 0; }
+
 .first__subheading {
   background-color: rgba(115, 115, 115, 0.8);
   color: #fff;
   width: 70%;
-  max-width: 750px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 400; }
@@ -91,7 +95,7 @@ li {
     text-decoration: underline; }
 
 .first__name-of-services {
-  padding-top: 2rem; }
+  padding-top: 0.5rem; }
 
 .first__name-of-services .row {
   max-width: 750px;
@@ -147,6 +151,9 @@ li {
   background-color: #737373;
   padding: 2rem; }
 
+.info__boxes {
+  padding: 1rem; }
+
 .info__boxes .row {
   margin-left: 0;
   margin-right: 0; }
@@ -172,8 +179,7 @@ li {
 section#second h3 {
   font-weight: 400;
   color: #fff;
-  margin-bottom: 0;
-  padding-bottom: 1rem; }
+  margin-bottom: 0; }
   section#second h3 span {
     font-weight: 700;
     color: #be112f; }
