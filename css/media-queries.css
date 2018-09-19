@@ -71,13 +71,15 @@
     }
 }
 
-@media (max-height: 720px) {
-    .first__name-of-services {
-        display: none;
-    }
-
+@media (max-height: 768px) {
     .first__headings {
         padding-top: 0;
+    }
+}
+
+@media (max-height: 690px) {
+    .first__name-of-services {
+        display: none;
     }
 }
 
