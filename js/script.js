@@ -30,3 +30,8 @@ $(window).scroll(function(){
        $('#dynamic').removeClass('newClass');
     }
 });
+
+$('#third').on('click', function(event) {
+    console.log("clicked");
+    // $(".collapse").collapse('hide');
+});

@@ -113,8 +113,8 @@ li {
 }
 
 .first__subheadings .row {
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .first__subheading {
@@ -355,6 +355,7 @@ section#second h3 {
 
     h6 {
         font-weight: 400;
+        padding-left: 1rem;
     }
 
     h3 {
@@ -376,7 +377,15 @@ section#second h3 {
 .current-logo {
     text-align: center;
     margin-top: 1rem;
+
+    img {
+        width: 120px;
+        height: 120px;
+        padding-bottom: 0.5rem
+    }
 }
+
+
 
 /* end FOURTH SECTION */
 /* FOOTER */
@@ -389,7 +398,65 @@ footer {
 footer {
     h3 {
         color: #fff;
+        font-weight: 400;
+    }
+
+    label {
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #fff;
     }
 }
+
+.form-control {
+    border-radius: 0;
+
+    &:focus {
+        border-color: $main-bv-red;
+        box-shadow: 0 0 0 0.2rem rgba(190, 17, 47, 0.25)
+    }
+}
+
+.e-mail-send-btn {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.footer__nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    .footer__nav-links {
+
+        li {
+            margin: 0.5rem;
+        }
+    }
+
+    .footer__nav-web {
+        text-transform: uppercase;
+    }
+
+    #phone-padding {
+        padding-left: 21px;
+    }
+}
+
 
 /* end FOOTER */

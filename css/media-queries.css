@@ -34,7 +34,8 @@
 
     section#second h3,
     section#third h3.third__heading,
-    section#fourth h3 {
+    section#fourth h3,
+    footer h3 {
         padding-top: 1rem;
     }
 }
@@ -52,6 +53,18 @@
 
     section#second h3 {
         padding-bottom: 0;
+    }
+
+    section#fourth p {
+        text-align: center;
+    }
+
+    .footer__nav {
+        padding-top: 1.5rem;
+    }
+
+    .e-mail-send-btn {
+        margin: 0 auto;
     }
 }
 
@@ -71,7 +84,8 @@
     section#first,
     section#second,
     section#third,
-    section#fourth {
+    section#fourth,
+    footer {
         padding: 1rem 0.5rem 0.5rem 0.5rem;
     }
 
@@ -85,7 +99,8 @@
 
     section#second h3,
     section#third h3.third__heading,
-    section#fourth h3 {
+    section#fourth h3,
+    footer h3 {
         font-size: 1.25rem;
         padding-bottom: 1.5rem;
     }
