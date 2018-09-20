@@ -260,7 +260,7 @@ section#second h3 {
 .old-logo,
 .current-logo {
   text-align: center;
-  margin-top: 1rem; }
+  margin-top: 2rem; }
   .old-logo img,
   .current-logo img {
     width: 120px;
@@ -282,6 +282,10 @@ footer label {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff; }
+
+.footer__contact .row {
+  margin-left: 0;
+  margin-right: 0; }
 
 .form-control {
   border-radius: 0; }
@@ -309,6 +313,8 @@ footer label {
     margin: 0.5rem; }
   .footer__nav .footer__nav-web {
     text-transform: uppercase; }
+  .footer__nav .footer__nav-email {
+    color: #212529; }
   .footer__nav #phone-padding {
     padding-left: 21px; }
 

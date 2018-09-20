@@ -376,7 +376,7 @@ section#second h3 {
 .old-logo,
 .current-logo {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 
     img {
         width: 120px;
@@ -406,6 +406,13 @@ footer {
         letter-spacing: 1px;
         text-transform: uppercase;
         color: #fff;
+    }
+}
+
+.footer__contact {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -451,6 +458,10 @@ footer {
 
     .footer__nav-web {
         text-transform: uppercase;
+    }
+
+    .footer__nav-email {
+        color: #212529;
     }
 
     #phone-padding {

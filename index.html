@@ -152,7 +152,7 @@
             <hr class="section__hr">
             <div class="container info__boxes d-flex flex-column justify-content-center">
                 <div class="row">
-                    <div id="info-box-one" class="col-md-6 col-sm-12 shadow-box">
+                    <div id="info-box-one" class="col-md-6 col-sm-12">
                         <div class="info-box one">
                             <div class="info-box__heading">
                                 <p class="text-white text-center">Kam sertifikācija domāta?</p>
@@ -173,7 +173,7 @@
                 </div>
 
                 <div class="row justify-content-end">
-                    <div id="info-box-two" class="col-md-11 col-sm-12 shadow-box-opposite">
+                    <div id="info-box-two" class="col-md-11 col-sm-12">
                         <div class="info-box two">
                             <div class="info-box__heading">
                                 <p class="text-white text-center">Pārtikas drošība</p>
@@ -1161,7 +1161,8 @@
                     atbilstības vērtējumu jomā. Esam kopā ar uzņēmumiem gan jaunu produktu izstrādes posmā, ražošanas
                     procesu pilnveides laikā, likumdošanas izmaiņu ieviešanā. <span>Bureau Veritas Latvia</span> strādā
                     vietējie
-                    Latvijas auditori, nepieciešamības gadījumā pieaicinot kolēģus no citiem Bureau Veritas birojiem
+                    Latvijas auditori, nepieciešamības gadījumā pieaicinot kolēģus no citiem <span>Bureau Veritas</span>
+                    birojiem
                     pasaulē.
 
                 </p>
@@ -1180,20 +1181,23 @@
         <div class="container footer__contact">
             <div class="row">
                 <div class="col-md-8">
-                    <form>
+                    <form id="contact_body" method="POST" action="inc/send.php">
                         <div class="form-group">
                             <label for="footer__vards">Jūsu vārds</label>
-                            <input type="text" class="form-control" id="footer__vards" placeholder="Ievadiet vārdu">
+                            <input type="text" name="footer__vards" class="form-control" required data-required="true"
+                                id="footer__vards" placeholder="Ievadiet vārdu">
                         </div>
                         <div class="form-group">
                             <label for="footer__epasts">Jūsu E-pasts</label>
-                            <input type="email" class="form-control" id="footer__epasts" placeholder="Ievadiet e-pastu">
+                            <input type="email" name="footer__epasts" class="form-control" required data-required="true"
+                                id="footer__epasts" placeholder="Ievadiet e-pastu">
                         </div>
                         <div class="form-group">
                             <label for="footer__question">Jūsu jautājums</label>
-                            <textarea class="form-control" id="footer__question" rows="2" placeholder="Ievadiet jautājumu"></textarea>
+                            <textarea class="form-control" name="footer__question" required data-required="true" id="footer__question"
+                                rows="2" placeholder="Ievadiet jautājumu"></textarea>
                         </div>
-                        <button type="submit" class="btn apply-btn e-mail-send-btn">Nosūtīt</button>
+                        <button type="submit" id="contact_results" class="btn apply-btn e-mail-send-btn">Nosūtīt</button>
                     </form>
                 </div>
                 <div class="col-md-4">
@@ -1209,7 +1213,7 @@
                             <br>
                             <li>SIA "Bureau Veritas Latvia</li>
                             <li><i class="fas fa-home"></i> Duntes iela 17a, Rīga, Latvija</li>
-                            <li><i class="fas fa-envelope"></i> <a href="mailto:info@bureauveritaslatvia.lv">info@bureauveritaslatvia.lv</a></li>
+                            <li><i class="fas fa-envelope"></i> <a class="footer__nav-email" href="mailto:info@bureauveritaslatvia.lv">info@bureauveritaslatvia.lv</a></li>
                             <li><i class="fas fa-phone"></i> +371 67323246</li>
                             <li id="phone-padding">+371 67325241</li>
                             <br>
@@ -1234,6 +1238,9 @@
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+
+    <!-- Validate JS -->
+    <script src="js/validate.js"></script>
 
 </body>
 
