@@ -65,13 +65,13 @@ li {
 /* FIRST SECTION */
 #first {
     /* background: #f2f2f2; */
-    /* background-image: url("/img/section_one_1.jpg"); */
+    /* background-image: url("img/section_one_1.jpg"); */
     background: linear-gradient(rgba(182, 182, 182, 0.25),
-        rgba(182, 182, 182, 0.25)), url("/img/section_one_1.jpg"), url("/img/section_one_2.jpg");
+        rgba(182, 182, 182, 0.25)), url("img/section_one_1.jpg"), url("img/section_one_2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    // background-image: url('/img/section_one_1.jpg'), url('/img/section_one_2.jpg');
+    // background-image: url('img/section_one_1.jpg'), url('img/section_one_2.jpg');
     // background-repeat: no-repeat, no-repeat;
     // background-size: 50% 100%;
     // background-position: left top, right top;
