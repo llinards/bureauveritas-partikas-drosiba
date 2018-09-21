@@ -22,16 +22,16 @@ $("button").on("click", function () {
     }
 });
 
-$(window).scroll(function(){
+$(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
-       $('#info-box-one').addClass('animated fadeInLeft');
-       $('#info-box-two').addClass('animated fadeInRight');
+        $('#info-box-one').addClass('animated fadeInLeft');
+        $('#info-box-two').addClass('animated fadeInRight');
     } else {
-       $('#dynamic').removeClass('newClass');
+        $('#dynamic').removeClass('newClass');
     }
 });
 
-$('#third').on('click', function(event) {
+$('#third').on('click', function (event) {
     console.log("clicked");
     // $(".collapse").collapse('hide');
 });
