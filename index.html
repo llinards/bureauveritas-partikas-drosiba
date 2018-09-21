@@ -1181,7 +1181,7 @@
         <div class="container footer__contact">
             <div class="row">
                 <div class="col-md-8">
-                    <form id="contact_body" method="POST" action="inc/send.php">
+                    <form id="contact_body" method="POST" action="inc/send.php" autocomplete="on">
                         <div class="form-group">
                             <label for="footer__vards">Jūsu vārds</label>
                             <input type="text" name="footer__vards" class="form-control" required data-required="true"
@@ -1196,6 +1196,14 @@
                             <label for="footer__question">Jūsu jautājums</label>
                             <textarea class="form-control" name="footer__question" required data-required="true" id="footer__question"
                                 rows="2" placeholder="Ievadiet jautājumu"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <input required type="checkbox" id="footer__agree-checkbox">
+                                <label class="agree-checkbox__text" for="footer__agree-checkbox">Piekrītu manu personas
+                                    datu apstrādei, kuras mērķis ir sazināties ar mani par sertifikācijas pakalpojumiem
+                                    un ar to saistītajiem jautājumiem. </label>
+                            </div>
                         </div>
                         <button type="submit" id="contact_results" class="btn apply-btn e-mail-send-btn">Nosūtīt</button>
                     </form>
@@ -1217,11 +1225,23 @@
                             <li><i class="fas fa-phone"></i> +371 67323246</li>
                             <li id="phone-padding">+371 67325241</li>
                             <br>
-                            <li>&copy; Bureau Veritas Latvia 2018</li>
+                            <!-- <li>&copy; Bureau Veritas Latvia 2018</li>
+                            <br> -->
+                            <!-- <li id="cookies-policy">Informējam, ka šī timekļa vietne izmanto savā darbībā sīkdatnes. Sīkdatņu izmantošanas
+                                mērķis ir tīmekļa vietnes satura kvalitātes uzlabošana un satura pielāgošana lietotāju
+                                vajadzībām.</li> -->
                         </ul>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="footer__copyrights">
+            <p class="first text-center">&copy; Bureau Veritas Latvia 2018</p>
+            <p class="second">Informējam, ka šī timekļa vietne izmanto savā darbībā sīkdatnes.
+                Sīkdatņu
+                izmantošanas
+                mērķis ir tīmekļa vietnes satura kvalitātes uzlabošana un satura pielāgošana lietotāju
+                vajadzībām.</p>
         </div>
     </footer>
     <!-- end FOOTER -->

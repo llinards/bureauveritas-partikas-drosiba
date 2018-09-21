@@ -293,6 +293,10 @@ footer label {
     border-color: #be112f;
     box-shadow: 0 0 0 0.2rem rgba(190, 17, 47, 0.25); }
 
+label.agree-checkbox__text {
+  text-transform: none;
+  font-size: 0.75rem; }
+
 .e-mail-send-btn {
   font-size: 1rem;
   margin: 0; }
@@ -317,6 +321,15 @@ footer label {
     color: #212529; }
   .footer__nav #phone-padding {
     padding-left: 21px; }
+  .footer__nav #cookies-policy {
+    font-size: 0.75rem; }
+
+.footer__copyrights {
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%; }
+  .footer__copyrights p {
+    margin-bottom: 0; }
 
 /* end FOOTER */
 

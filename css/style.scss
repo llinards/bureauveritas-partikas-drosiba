@@ -425,6 +425,11 @@ footer {
     }
 }
 
+label.agree-checkbox__text {
+    text-transform: none;
+    font-size: 0.75rem;
+}
+
 .e-mail-send-btn {
     font-size: 1rem;
     margin: 0;
@@ -467,6 +472,24 @@ footer {
     #phone-padding {
         padding-left: 21px;
     }
+
+    #cookies-policy {
+        font-size: 0.75rem;
+    }
+}
+
+.footer__copyrights {
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .first {}
+
+    .second {}
 }
 
 

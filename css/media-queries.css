@@ -66,6 +66,12 @@
     .e-mail-send-btn {
         margin: 0 auto;
     }
+
+    .footer__copyrights {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -115,7 +121,8 @@
 
     .service__info-text p,
     .service__info-text li,
-    section#fourth p {
+    section#fourth p,
+    .footer__copyrights p {
         font-size: 0.75rem;
     }
 }
