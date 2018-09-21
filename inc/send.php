@@ -33,6 +33,7 @@ if($_POST){
     $boundary = md5("sanwebe.com"); 
     
     //construct a message body to be sent to recipient
+    $message_body = "";
     $message_body .= "Sveiki!\n";
     $message_body .= "No mājaslapas ir pienācis jautājums:\n";
     $message_body .= "Informācija par kandidātu:\n";
