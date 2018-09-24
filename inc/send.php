@@ -46,6 +46,7 @@ if($_POST){
 
    //send plain email otherwise
     $headers = "From:".$from_email."\r\n".
+    $headers = "Content-Type: text/plain; charset=UTF-8";
     "Reply-To: ".$sender_email. "\n" .
     "X-Mailer: PHP/" . phpversion();
     $body = $message_body;
