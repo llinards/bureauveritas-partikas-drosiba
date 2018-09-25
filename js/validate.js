@@ -18,7 +18,7 @@ $("#contact_body").submit(function (e) {
         $(this).css('border-color', border_color);
     });
 
-   
+
     //if everything's ok, continue with Ajax form submit
     if (proceed) {
         var post_url = $(this).attr("action"); //get form action url
@@ -36,9 +36,11 @@ $("#contact_body").submit(function (e) {
         }).done(function (res) { //fetch server "json" messages when done
             if (res.type == "error") {
                 $("#contact_results").html('<div class="error">' + res.text + "</div>");
+                $("#contact_results").attr('disabled', 'disabled');
             }
             if (res.type == "done") {
                 $("#contact_results").html('<div class="success">' + res.text + "</div>");
+                $("#contact_results").attr('disabled', 'disabled');
             }
         });
     }
