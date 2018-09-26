@@ -2,9 +2,6 @@ $main-bv-red: #be112f;
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700');
 
-/* GENERAL */
-body {}
-
 /* GLOBAL */
 h1,
 h2,
@@ -58,14 +55,10 @@ li {
     }
 }
 
-
-
-
-
 /* FIRST SECTION */
 #first {
     background: linear-gradient(rgba(182, 182, 182, 0.25),
-        rgba(182, 182, 182, 0.25)), url("../img/section_one_1.jpg"), url("../img/section_one_2.jpg");
+        rgba(182, 182, 182, 0.25)), url("../img/section_one_1.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -98,7 +91,6 @@ li {
         text-decoration: underline;
     }
 }
-
 
 .first__subheadings {
     padding-top: 1rem;
@@ -137,7 +129,6 @@ li {
 }
 
 .name-of-service {
-    /* background-color: #be112f; */
     background-color: rgba(139, 32, 50, 0.3);
     border: 3px solid rgb(139, 32, 50);
     padding: 0.5rem;
@@ -160,16 +151,12 @@ li {
     }
 
     a {
-        /* color: #fff; */
-        /* color: rgb(93,18,35); */
         color: #fff;
         text-decoration: none;
     }
 }
 
 .first__arrow-down {
-    /* display: flex;
-    justify-content: center; */
     font-size: 4rem;
     animation: upAndDown 5s infinite;
     margin-bottom: 4rem !important;
@@ -207,10 +194,7 @@ li {
     width: 100%;
     background-color: rgb(115, 115, 115);
     padding: 2rem;
-
-
 }
-
 
 .info__boxes {
     padding: 1rem;
@@ -236,7 +220,6 @@ li {
     }
 }
 
-
 .info-box__info {
     background: #f2f2f2;
     padding: 0.25rem;
@@ -248,8 +231,6 @@ li {
     }
 }
 
-
-
 section#second h3 {
     font-weight: 400;
     color: #fff;
@@ -260,8 +241,6 @@ section#second h3 {
     }
 }
 
-
-
 /* end SECOND SECTION */
 /* THIRD SECTION */
 #third {
@@ -270,8 +249,6 @@ section#second h3 {
     background-color: #ccc;
     padding: 2rem;
 }
-
-.third__heading {}
 
 .service__main,
 .service__info-head,
@@ -287,7 +264,6 @@ section#second h3 {
     span {
         font-weight: 700;
     }
-
 }
 
 .service__info-text {
@@ -376,8 +352,6 @@ section#second h3 {
         padding-bottom: 0.5rem
     }
 }
-
-
 
 /* end FOURTH SECTION */
 /* FOOTER */
@@ -477,12 +451,6 @@ label.agree-checkbox__text {
 
     p {
         margin-bottom: 0;
-    }
-
-    .first {}
-
-    .second {}
+    } 
 }
-
-
 /* end FOOTER */
