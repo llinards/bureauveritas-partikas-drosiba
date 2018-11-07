@@ -44,10 +44,10 @@ li {
 
 /* FIRST SECTION */
 #first {
-  background: linear-gradient(rgba(182, 182, 182, 0.25), rgba(182, 182, 182, 0.25)), url("../img/section_one_1.jpg");
+  background: linear-gradient(rgba(169, 169, 169, 0.25), rgba(169, 169, 169, 1)), url("../img/section_one_1.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   width: 100%;
   height: 100vh;
   padding: 2rem; }
@@ -148,7 +148,7 @@ li {
 #second {
   height: 100%;
   width: 100%;
-  background-color: #737373;
+  background-color: rgba(169, 169, 169);
   padding: 2rem; }
 
 .info__boxes {
@@ -189,7 +189,7 @@ section#second h3 {
 #third {
   /* height: 100vh; */
   width: 100%;
-  background-color: #ccc;
+  background-color: rgb(169,169,169);
   padding: 2rem; }
 
 .service__main,
@@ -271,7 +271,7 @@ section#second h3 {
 /* FOOTER */
 footer {
   width: 100%;
-  background-color: #737373;
+  background-color: rgb(169,169,169);
   padding: 2rem; }
 
 footer h3 {
