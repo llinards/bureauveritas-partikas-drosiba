@@ -76,10 +76,12 @@
 
 @media (min-width: 768px) {
     .shadow-box {
+        -webkit-box-shadow: 7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
         box-shadow: 7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
     }
 
     .shadow-box-opposite {
+        -webkit-box-shadow: 7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
         box-shadow: 7px 3px 31px -1px rgba(0, 0, 0, 0.5) !important;
         margin-top: 1rem;
     }
