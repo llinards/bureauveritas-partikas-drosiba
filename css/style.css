@@ -69,8 +69,8 @@ li {
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 .logo .site-name {
@@ -78,11 +78,12 @@ li {
   background-repeat: no-repeat;
   display: block;
   content: "";
-  width: 100px;
-  height: 100px;
-  background-size: 100px 100px;
+  width: 150px;
+  height: 150px;
+  /* background-size: 100px 100px; */
   text-indent: -9999px;
   margin-bottom: 0;
+  margin-left: 15px;
 }
 
 .first__headings {
@@ -349,7 +350,7 @@ section#second h3 span {
 }
 
 .service__info-diagram-img {
-  width: 75%;
+  width: 100%;
 }
 
 /* end THIRD SECTION */

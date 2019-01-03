@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+    .logo {
+        margin: 0 auto;
+    }
+
     .first__name-of-services {
         display: none;
     }
@@ -101,9 +105,9 @@
         font-size: 1.25rem;
     }
 
-    .info-box__info li {
+    /* .info-box__info li {
         font-size: 0.75rem;
-    }
+    } */
 
     section#second h3,
     section#third h3.third__heading,
@@ -121,9 +125,6 @@
         font-size: 1rem;
     }
 
-    .service__info-text p,
-    .service__info-text li,
-    section#fourth p,
     .footer__copyrights p {
         font-size: 0.75rem;
     }
@@ -149,9 +150,9 @@
 }
 
 @media (max-width: 375px) {
-    .info-box__heading p {
+    /* .info-box__heading p {
         font-size: 1rem;
-    }
+    } */
 }
 
 /* HEIGHT */
